@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+ .bg-image  {
+    border-radius: 2px;
+    box-shadow: 0 0 0px;
+    position: absolute;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+/*
+section #pagina-1{
+}
+section #{
+    
+}
+*/ 
+
+header{
+    padding-right: 12rem;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color:  orangered;
+    transition: 0.3s all;
+}
+
+.logo {
+    margin-top: 6px;
+    margin-left: 6rem;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    transition: 0.6s all;
+ 
+}
+
+.dropdown {
+  display: none;
+}
+
+#games {
+  color: orangered;
+}
+
+#apps {
+  color: orangered;
+}
+
+#sites {
+  color: orangered;
+}
+
+#cybersecurity {
+  color: orangered;
+}
+
+#mobile {
+  color: orangered;
+}
+
+#redes {
+  color: orangered;
+}
+
+button{
+    color: orangered;
+    background: transparent;
+    border:solid 1px orangered;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: orangered;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Projetos box */
+
+.container {
+    background-color: black;
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: 3px solid orangered;
+    border-radius: 10px;
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #img-1 {
+    background-image: url(https://i.postimg.cc/BbN3ynYr/title.png);
+  }
+  
+  #img-2 {
+    background-image: url(https://i.postimg.cc/W1jgqbcr/imagem-2024-06-27-040745807.png);
+  }
+  
+  #img-3 {
+    background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/01/104228210.jpg?auto=format&q=60&fit=max&w=930);
+  }
+  
+  #img-4 {
+    background-image: url(https://theforage.wpengine.com/wp-content/uploads/2022/12/what-is-cybersecurity-1024x631.jpg);
+  }
+  
+  #img-5 {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/zmkq42fJnPHtpNTL4K7fZn.jpg);
+  }
+  
+  #img-6 {
+    background-image: url(https://i0.wp.com/seginfo.com.br/wp-content/uploads/2018/01/network-782707_1280.png?resize=1024%2C666&ssl=1);
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: orangered;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: orangered;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px orangered;
+  }
+  
+  .btn:hover {
+    background-color: orangered;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.05);
+  }
+  
+  .fa-google-drive {
+    font-size: 20px;
+  }
+  
+  .bi-joystick {
+    font-size: 2rem;
+    margin-left: 13rem;
+  }
+
+  .bi-code-square {
+    font-size: 2rem;
+    margin-left: 10rem;
+  }
+
+  .bi-github {
+    font-size: 16px;
+  }
+
+  .bi-columns {
+    font-size: 2rem;
+    margin-left: 15rem;
+  }
+
+  .bi-file-earmark-lock {
+    font-size: 2rem;
+    margin-left: 8rem;
+  }
+
+  .bi-phone {
+    font-size: 2rem;
+    margin-left: 13rem;
+  }
+
+  .bi-cloud {
+    font-size: 2rem;
+    margin-left: 14rem;
+  }
+
+  @media screen and (max-width:768px){
+    .cabeçalho-link {
+        display: none;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:768px){
+    .logo {
+        display: flex;
+        margin-top: 6px;
+        padding-bottom: 20px;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .dropbtn {
+        color: orangered;
+        padding: 16px;
+        margin-left: 12rem;
+        margin-bottom: 15px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }      
+}
+
+@media screen and (max-width:768px){
+    .dropbtn:hover, .dropbtn:focus {
+        color: rgb(255, 105, 50);
+    }
+}
+
+@media screen and (max-width:768px){
+    .dropdown {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:768px){
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        left: 13.4rem;
+        top: 4rem;
+        background-color: orangered;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width:768px){
+    .dropdown-content a {
+        color: white;
+        border: 2px solid white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px){
+    .dropdown-content a:hover {background-color: rgb(255, 87, 27);}
+}
+
+@media screen and (max-width:768px){
+    .show {display: block;}
+}
+
+@media screen and (max-width:768px){
+    #header {
+        background-color: black;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cabeçalho-link {
+        gap: 3rem ;        
+    }
+}
+
+@media screen and (max-width:768px){
+    .container {
+      background-color: rgb(15, 14, 15);
+      min-height: 60vh;
+      padding: 50px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .card {
+    border: 3px solid orangered;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:768px){
+  .bi-joystick {
+    font-size: 2rem;
+    margin-left: 9rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .bi-code-square {
+    font-size: 2rem;
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .bi-columns {
+    font-size: 2rem;
+    margin-left: 11rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .bi-columns {
+    font-size: 2rem;
+    margin-left: 11rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .bi-file-earmark-lock {
+    font-size: 2rem;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .bi-phone {
+    font-size: 2rem;
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .bi-cloud {
+    font-size: 2rem;
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #caixafooter{
+      display: grid;
+      column-gap: 9rem;
+      row-gap: 1.5rem;
+      flex-direction: column;
+      padding-left: 45px;
+      background-color: rgb(10, 10, 10);
+  }
+}
